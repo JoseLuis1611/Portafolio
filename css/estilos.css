@@ -1,0 +1,16 @@
+.frase-logo{
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+#logo{
+  display: flex;
+  align-items: center;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+#header{
+  background: black;
+}
