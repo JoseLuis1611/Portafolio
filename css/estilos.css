@@ -53,3 +53,15 @@
 .contact .row{
   align-items: center;
 }
+
+.hero-image{
+  object-fit: cover;
+  display: block;
+  margin: auto;
+}
+
+.presentacion{
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Arial';
+}
