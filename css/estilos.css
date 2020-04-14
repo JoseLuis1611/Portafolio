@@ -1,20 +1,74 @@
+
+
+/* Header */
+
+#header{
+  background: black;
+}
+
+#logo-header{
+  display: flex;
+  align-items: center;
+  font-family: 'Fjalla One', sans-serif;
+}
+
 .frase-logo{
   color: white;
   font-size: 40px;
   font-weight: bold;
   margin-bottom: 0;
 }
+/* Fin Header */
 
-#logo{
+/* Hero */
+
+.hero-image{
+  object-fit: cover;
+  display: block;
+  margin: auto;
+}
+
+.presentacion{
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Arial';
+}
+
+/* Fin Hero */
+
+
+/* Projects */
+
+.projects-title{
+  font-family: 'Fjalla One';
+}
+
+.project-img{
   display: flex;
   align-items: center;
-  font-family: 'Fjalla One', sans-serif;
+  justify-content: center;
 }
 
-#header{
-  background: black;
+.badges{
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
+.card-button{
+  display: flex;
+  justify-content: center;
+}
+
+.card{
+  border-radius: 30px;
+}
+
+/* Fin Projects */
+
+
+
+
+/* Footer */
 .contact-social{
   width: 50px;
   height: 50px;
@@ -54,14 +108,4 @@
   align-items: center;
 }
 
-.hero-image{
-  object-fit: cover;
-  display: block;
-  margin: auto;
-}
-
-.presentacion{
-  text-align: center;
-  font-size: 30px;
-  font-family: 'Arial';
-}
+/* Fin Footer */

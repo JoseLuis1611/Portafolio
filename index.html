@@ -12,41 +12,45 @@
     <link rel="icon" type="image/png" href="images/logojosesito.png">
     <title>Jose Artica</title>
   </head>
-  <body>
+  <body data-spy="scroll" data-target="#header">
 
     <!-- Header -->
-    <nav id="header" class="navbar navbar-expand-lg navbar-dark bg-black">
-        <div class="container">
-          <a id="logo" class="navbar-brand" href="#">
-            <img src="images/logojosesito.png" alt="LogoDeJose">
-            <label class="frase-logo">JOSE ARTICA</label>
-          </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+    <section class="header sticky-top">
+      <nav id="header" class="navbar navbar-expand-lg navbar-dark bg-black ">
+          <div class="container">
+            <a id="logo-header" class="navbar-brand" href="#">
+              <img src="images/logojosesito.png" alt="LogoDeJose">
+              <label class="frase-logo">JOSE ARTICA</label>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
 
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="#">Inicio<span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Proyectos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Tecnologías</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contacto</a>
-              </li>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Inicio<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Proyectos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Tecnologías</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contacto</a>
+                </li>
 
-            </ul>
+              </ul>
+
+            </div>
 
           </div>
 
-        </div>
+      </nav>
 
-    </nav>
+    </section>
+
 
     <!-- Hero -->
     <section class="hero pb-4 pt-5" id="hero">
@@ -65,6 +69,57 @@
         </div>
       </div>
 
+    </section>
+
+    <!-- Projects -->
+    <section class="projects">
+      <div class="container">
+
+        <h1 class="projects-title mb-5">Proyectos</h1>
+
+        <div class="card mb-3">
+          <div class="row no-gutters">
+            <div class="col-md-8">
+
+              <div class="card-body">
+
+                <h5 class="card-title">Clon de Instagram</h5>
+
+                <div class="badges">
+                  <span class="badge badge-primary">Python</span>
+                  <span class="badge badge-secondary">Django</span>
+                  <span class="badge badge-success">Mysql</span>
+                  <span class="badge badge-danger">html</span>
+                  <span class="badge badge-warning">css</span>
+                  <span class="badge badge-info">Bootstrap</span>
+                </div>
+
+                <p class="card-text">
+                  Se realizó una aplicación similar a instagram utilizando el framework
+                  django. La aplicación consiste en publicaciones de fotografías
+                  hechas por usuarios. Los usuarios podrán registrarse, creando una cuenta, podrán iniciar
+                  sesión con su respectiva cuenta, podrán editar su perfil con una descripción de ellos si
+                  es que así lo quisieran, podrán postear fotografías, podrán obervar los posts
+                  que realizan los demás, así como tambien podrán visitar el perfil de los otros usuarios.
+                </p>
+
+                <div class="card-button">
+                  <button type="button" class="btn btn-primary">Ver Proyecto</button>
+                </div>
+
+              </div>
+
+            </div>
+
+            <div class="col-md-4 project-img">
+              <img src="images/logo-instagram.png" width="150" class="" alt="...">
+            </div>
+
+          </div>
+        </div>
+
+
+      </div>
     </section>
 
     <!-- Footer y contacto-->
