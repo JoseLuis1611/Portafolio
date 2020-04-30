@@ -39,7 +39,7 @@
 
 /* Projects */
 
-.projects-title{
+.title{
   font-family: 'Fjalla One';
 }
 
@@ -65,8 +65,23 @@
 
 /* Fin Projects */
 
+/* Tecnologias */
+.tecnologias{
+  margin: 65px 0px
+}
+
+.tecnologia-image{
+  object-fit: cover;
+  margin: auto;
+}
+
+.imagen-footer{
+  height: 400px;
+  width: 100%;
+}
 
 
+/* Fin Tecnologias */
 
 /* Footer */
 .contact-social{
